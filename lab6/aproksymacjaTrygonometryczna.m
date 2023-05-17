@@ -1,7 +1,7 @@
 function [x_approx] = aproksymacjaTrygonometryczna(n, x, N)
 
 n = n*(pi/max(n));
-S = zeros(N+1,N+1);
+S = zeros(N+1,N+1); 
 
 % generacja macierzy S
 
